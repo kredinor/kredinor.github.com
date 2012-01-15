@@ -1,45 +1,28 @@
 ---
 layout: page
-title: Hello from Jekyll-Bootstrap-Core
-header: This is Jekyll-Bootstrap
+title: Kredinor @ github
+header: Kredinor @ github
 ---
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/jekyll-quick-start.html)
+# Welcome to Kredinor @ github
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllboostrap.com)
+## Introduction
 
-## Update Author Attributes
+Since 1905, Kredinor have been providing debt-related administrative services to the Norwegian market, and is today one of the biggest debt collection agencies in Norway, with
+~350 employees across eight offices in Norway. Our head quarters are located down town Oslo,
+and holds the majority of the line of business unit as well as our strategic unit.
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+Since 2008, we have been on the path to reinventing how we do business. Our new platform is
+based on Microsoft technology, and we use a vast array of products and components from Microsoft, other commercial third parties, open source and developed internally.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+Through this site, we would like to give back to the open source community, by sharing
+some of our internal frameworks and guidances.
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+The two topmost items on the list of things we would like to share, is Artifacts, our way of
+organizing an artifact repository on top of Microsoft Team Foundation Server. The other one
+is parts of Kredinor.ServiceModel, our helper library for developing robust, production-ready
+services with WCF.
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
+Source code we'll release will be under the Apache Public License 2.0 and text and guidance
+under Creative Commons Attribution 3.0.
 

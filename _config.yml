@@ -1,5 +1,7 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
+server: true
+server_port: 4000
 permalink: /:categories/:year/:month/:day/:title 
 auto: true
 pygments: true
@@ -12,7 +14,7 @@ production_url : http://kredinor.github.com
 title : kredinor @ github
 
 author :
-  name : Lars Wilhelmsen
-  email : larsw@kredinor.no
-  github : larsw
-  twitter : larsw
+  name : Kredinor
+  email : github@kredinor.no
+  github : kredinor
+  twitter : KredinorDevs
